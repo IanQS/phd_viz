@@ -52,7 +52,7 @@ def _(life_details, pd, px):
         fig.update_traces(insidetextfont=dict(color="black", size=20, family="Times New Roman"))
         fig.update_traces(outsidetextfont=dict(color="black", size=20, family="Times New Roman"))
         fig.write_image("plots/personal.png", scale=2)
-        fig.show()
+        # fig.show()
 
     plot_timeline_grouped_resource(events=life_details)
     return
