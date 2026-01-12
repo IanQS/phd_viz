@@ -3,7 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 details.py
-plots/
+plots/*
 
 # C extensions
 *.so
