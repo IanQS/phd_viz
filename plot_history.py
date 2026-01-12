@@ -11,6 +11,7 @@ def _():
     import plotly.figure_factory as ff
     from datetime import datetime
     import copy
+    from pathlib import Path
 
     try:
         from details import life_details
@@ -29,6 +30,7 @@ def _():
             # Work/Research Experience
             dict(Event="Worked in Tech", Start="2017-05-09", Finish="2023-07-30", Resource="Work"),
         ])
+    Path("./plots").mkdir(exist_ok=True)
     return datetime, ff, life_details, pd, px
 
 
