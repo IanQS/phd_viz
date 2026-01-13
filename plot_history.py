@@ -75,7 +75,7 @@ def _(datetime, ff, pd):
         ])
 
     def plot_timeline_grouped_project(events: list[dict[str, str]]):
-        OFFSET_CONSTANT = 2  # Not a damn clue why I have to do this
+        OFFSET_CONSTANT = 1  # Not a damn clue why I have to do this
         annots = []
         tracked_tasks = {}
         for i, event in enumerate(events):
